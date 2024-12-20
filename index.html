@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <title>Flower Delivery | Blossom</title>
+</head>
+<body>
+  <nav>
+    <div class="nav__logo"><a href="#home">Blossom</a></div>
+    <ul class="nav__links">
+      <li class="link"><a href="#home">Home</a></li>
+      <li class="link"><a href="#about">About Us</a></li>
+      <li class="link"><a href="#shop">Shop</a></li>
+      <li class="link"><a href="#contact">Contact Us</a></li>
+    </ul>
+    <div class="search__box">
+      <input type="text" placeholder="Search flowers" />
+      <i class="ri-search-line"></i>
+    </div>
+  </nav>
+
+  <section id="home" class="container home__section">
+    <div class="container__left">
+      <div class="content">
+        <h1>Send Love<br />with Flowers.</h1>
+        <p>Explore our beautiful collection of fresh flowers, perfect for any occasion. Let Blossom help you deliver smiles today!</p>
+        <div class="btns">
+          <button class="shop__now"><a href="#shop">Shop Now</a></button>
+          <button class="learn__more"><a href="#about">Learn More</a></button>
+        </div>
+       
+      </div>
+    </div>
+    <div class="container__right">
+      <form>
+        <h4>Find the Perfect Bouquet</h4>
+        <div class="form__group">
+          <label for="occasion">Occasion</label>
+          <input type="text" name="occasion" id="occasion" placeholder="Enter occasion" />
+        </div>
+        <div class="form__group">
+          <label for="delivery-date">Delivery Date</label>
+          <input type="text" name="delivery-date" id="delivery-date" placeholder="Select delivery date" />
+        </div>
+        <button type="submit">Explore Bouquets</button>
+      </form>
+    </div>
+   
+  </section>
+
+  <section id="about" class="container about__section">
+    <div class="container__left">
+      <div class="content">
+        <h1>About Blossom</h1>
+        <p>
+          At Blossom, we take pride in delivering vibrant and exquisite flowers for every special moment. Our mission is to bring joy and warmth through our meticulously crafted floral arrangements. 
+         </p>
+         <p>Each bouquet is thoughtfully designed to convey your emotions and make every occasion unforgettable. With a dedication to quality and freshness, Blossom ensures that every delivery spreads happiness and love to your loved ones. </p>
+         <p>
+           Whether it’s a celebration or a gesture of appreciation, let Blossom be your trusted partner in creating lasting memories.
+         </p>
+        <div class="btns">
+          <button class="shop__now"><a href="#shop">Shop Now</a></button>
+        </div>
+      </div>
+    </div>
+    <div class="container__right">
+      <img src="Images/Blossom.jpg" alt="About Blossom" />
+    </div>
+  </section>
+
+  
+  <section id="shop" class="container shop__section">
+    <h1 class="shop__heading">Shop</h1>
+    <div class="product__card">
+      <img src="Images/Rose.jpg" alt="Flower 1" />
+      <div class="product__info">
+        <h3>Rose Bouquet</h3>
+        <p class="price">₹300</p>
+        <button class="buy__now">Buy Now</button>
+      </div>
+    </div>
+    <div class="product__card">
+      <img src="Images/tulip.jpg" alt="Flower 2" />
+      <div class="product__info">
+        <h3>Tulip Arrangement</h3>
+        <p class="price">₹350</p>
+        <button class="buy__now">Buy Now</button>
+      </div>
+    </div>
+    <div class="product__card">
+      <img src="Images/lily.jpg" alt="Flower 3" />
+      <div class="product__info">
+        <h3>Lily Bouquet</h3>
+        <p class="price">₹400</p>
+        <button class="buy__now">Buy Now</button>
+      </div>
+    </div>
+    <div class="product__card">
+      <img src="Images/orchid.jpg" alt="Flower 4" />
+      <div class="product__info">
+        <h3>Orchid Bouquet</h3>
+        <p class="price">₹450</p>
+        <button class="buy__now">Buy Now</button>
+      </div>
+    </div>
+    <div class="product__card">
+      <img src="Images/sunflower.jpg" alt="Flower 5" />
+      <div class="product__info">
+        <h3>Sunflower Basket</h3>
+        <p class="price">₹380</p>
+        <button class="buy__now">Buy Now</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="container contact__section">
+    <div class="contact__info">
+      <h1>Contact Blossom</h1>
+      <p>Have questions or need assistance? Reach out to us!</p>
+      <div class="contact__details">
+        <div class="contact__item">
+          <i class="ri-mail-line"></i>
+          <p>Email: info@blossom.com</p>
+        </div>
+        <div class="contact__item">
+          <i class="ri-phone-line"></i>
+          <p>Phone: 91-6536945621</p>
+        </div>
+        <div class="contact__item">
+          <i class="ri-map-pin-line"></i>
+          <p>Address: 123 Blossom Street, Dehradun, India</p>
+        </div>
+      </div>
+    </div>
+    <div class="contact__form">
+      <h2>Send Us a Message</h2>
+      <form>
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+</body>
+</html>
